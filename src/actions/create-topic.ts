@@ -7,7 +7,6 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { db } from "@/db";
 import paths from "@/paths";
-import { error } from "console";
 
 const createTopicSchema = z.object({
   name: z
